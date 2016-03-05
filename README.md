@@ -11,12 +11,12 @@ Introduction
 ![Imgur](http://i.imgur.com/Jetu9Cr.png)
 
 
-Software
+About Software
 --------------------
 
-If this software detects a tapping gesture, it shows a text "Tapped!."
+When this software detects a tapping gesture, it shows a text "Tapped!."
 
-If you check "タップ検出時にマウスクリックする," this software executes a left click automatically when a tapping gesture is detected.
+If you check "タップ検出時にマウスクリックする," this software executes a left click automatically on detecting the tapping gesture.
 
 ![Imgur](http://i.imgur.com/CWO5oVK.png?1)
 
@@ -27,11 +27,11 @@ Implementation detail
 This gesture recognizer looks mouse cursor's movement. 
 It assumes that the touchpoint is tapped if the mouse cursor moved subtly in a moment.
 
-Because the current implementation is too naive, the gesture recognition accuracy is not good. 
+Because the current implementation is too naive, **the gesture recognition accuracy is not good**. 
 
 
 This software is implemented as a WinForm application with Visual C# 2015.
-I confirm this software works on ThinkPad X1 Carbon in Windows 10.
+I confirmed this software works on ThinkPad X1 Carbon in Windows 10.
 
 
 Licence
