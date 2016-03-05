@@ -32,7 +32,7 @@ It assumes that the TrackPoint is tapped if the mouse cursor moved subtly in a m
 Because the current implementation is too naive, **the gesture recognition accuracy is not good**. 
 
 
-This software is implemented as a WinForm application with Visual C# 2015.
+This software is implemented as a WinForm application with Visual C# 2013.
 I confirmed this software works on ThinkPad X1 Carbon in Windows 10.
 
 
