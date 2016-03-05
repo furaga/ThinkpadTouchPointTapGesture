@@ -1,12 +1,14 @@
-﻿ThinkpadTouchPointTapGesture
+﻿ThinkpadTrackPointTapGesture
 ====================
 
-ThinkpadTouchPointTapGesture : A gesture recognizer for a tapping gesture on a touchpoint of Thinkpad PC.
+(The repository name Thinkpad**TouchPoint**TapGesture is typo..)
+
+ThinkpadTrackPointTapGesture : A gesture recognizer for a tapping gesture on a TrackPoint of Thinkpad PC.
 
 Introduction
 --------------------
 
-**ThinkpadTouchPointTapGesture** is a gesture recognizer. It recognize tapping gestures on a touchpoint of a Thinkpad note PC.
+**ThinkpadTrackPointTapGesture** is a gesture recognizer. It recognize tapping gestures on a TrackPoint of a Thinkpad note PC.
 
 ![Imgur](http://i.imgur.com/Jetu9Cr.png)
 
@@ -25,7 +27,7 @@ Implementation detail
 --------------------
 
 This gesture recognizer looks mouse cursor's movement. 
-It assumes that the touchpoint is tapped if the mouse cursor moved subtly in a moment.
+It assumes that the TrackPoint is tapped if the mouse cursor moved subtly in a moment.
 
 Because the current implementation is too naive, **the gesture recognition accuracy is not good**. 
 
